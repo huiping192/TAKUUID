@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.ios.frameworks        = 'Security'
 
-  s.public_header_files = 'Classes/*.h'
-  s.source_files = 'Classes/*.{h,m}'
+  s.public_header_files = 'Sources/TAKUUID/*.h'
+  s.source_files = 'Sources/TAKUUID/*.{h,m}'
 end

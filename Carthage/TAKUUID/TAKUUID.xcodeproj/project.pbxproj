@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EDEE14BE1EF102F600C61D70 /* TAKUUIDStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEE14BC1EF102F600C61D70 /* TAKUUIDStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDEE14BF1EF102F600C61D70 /* TAKUUIDStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEE14BD1EF102F600C61D70 /* TAKUUIDStorage.m */; };
-		EDEE14C61EF1035300C61D70 /* TAKUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEE14C51EF1035300C61D70 /* TAKUUID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF48D6927D0746000A35F5F /* TAKUUIDStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF48D6627D0746000A35F5F /* TAKUUIDStorage.h */; };
+		7DF48D6A27D0746000A35F5F /* TAKUUIDStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF48D6727D0746000A35F5F /* TAKUUIDStorage.m */; };
+		7DF48D6B27D0746000A35F5F /* TAKUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DF48D6827D0746000A35F5F /* TAKUUID.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7DF48D6627D0746000A35F5F /* TAKUUIDStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAKUUIDStorage.h; path = ../../../Sources/TAKUUID/TAKUUIDStorage.h; sourceTree = "<group>"; };
+		7DF48D6727D0746000A35F5F /* TAKUUIDStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAKUUIDStorage.m; path = ../../../Sources/TAKUUID/TAKUUIDStorage.m; sourceTree = "<group>"; };
+		7DF48D6827D0746000A35F5F /* TAKUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAKUUID.h; path = ../../../Sources/TAKUUID/TAKUUID.h; sourceTree = "<group>"; };
 		ED51B6301EF100700036BDFE /* TAKUUID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TAKUUID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED51B6341EF100700036BDFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EDEE14BC1EF102F600C61D70 /* TAKUUIDStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAKUUIDStorage.h; path = ../../../Classes/TAKUUIDStorage.h; sourceTree = "<group>"; };
-		EDEE14BD1EF102F600C61D70 /* TAKUUIDStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAKUUIDStorage.m; path = ../../../Classes/TAKUUIDStorage.m; sourceTree = "<group>"; };
-		EDEE14C51EF1035300C61D70 /* TAKUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAKUUID.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +50,9 @@
 		ED51B6321EF100700036BDFE /* TAKUUID */ = {
 			isa = PBXGroup;
 			children = (
-				EDEE14C51EF1035300C61D70 /* TAKUUID.h */,
-				EDEE14BC1EF102F600C61D70 /* TAKUUIDStorage.h */,
-				EDEE14BD1EF102F600C61D70 /* TAKUUIDStorage.m */,
+				7DF48D6827D0746000A35F5F /* TAKUUID.h */,
+				7DF48D6627D0746000A35F5F /* TAKUUIDStorage.h */,
+				7DF48D6727D0746000A35F5F /* TAKUUIDStorage.m */,
 				ED51B6341EF100700036BDFE /* Info.plist */,
 			);
 			path = TAKUUID;
@@ -65,8 +65,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDEE14C61EF1035300C61D70 /* TAKUUID.h in Headers */,
-				EDEE14BE1EF102F600C61D70 /* TAKUUIDStorage.h in Headers */,
+				7DF48D6B27D0746000A35F5F /* TAKUUID.h in Headers */,
+				7DF48D6927D0746000A35F5F /* TAKUUIDStorage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +112,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = ED51B6261EF100700036BDFE;
@@ -139,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDEE14BF1EF102F600C61D70 /* TAKUUIDStorage.m in Sources */,
+				7DF48D6A27D0746000A35F5F /* TAKUUIDStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
